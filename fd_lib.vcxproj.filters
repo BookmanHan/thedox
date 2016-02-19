@@ -1,0 +1,991 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="库文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="库文件\alib">
+      <UniqueIdentifier>{b433f265-a9dc-4d8c-a054-c25491aeb379}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="库文件\alib\crawler">
+      <UniqueIdentifier>{16fa0a50-1362-4540-bf62-6518e0f1a5c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="库文件\xlib">
+      <UniqueIdentifier>{ce055dfc-6819-4e1b-ba7b-661314a5b7dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="库文件\xlib\computerial_intelligence">
+      <UniqueIdentifier>{5d550ffc-fed7-4d90-bc0e-98d2e0281020}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="库文件\xlib\computerial_intelligence\evoluationary_computering">
+      <UniqueIdentifier>{c2bb8e2e-a488-4219-ac46-13abc86c30dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="库文件\xlib\computerial_intelligence\evoluationary_computering\genetic_algorithms">
+      <UniqueIdentifier>{b7f872e2-7bf3-4fe1-8f1e-d28c469dcb37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="库文件\xlib\computerial_intelligence\target">
+      <UniqueIdentifier>{9bcbf808-0256-48ea-bb42-dce5ff8beae2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="库文件\xlib\algorithm">
+      <UniqueIdentifier>{df31e106-9198-4973-a89a-f0539e3a8c4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="库文件\xlib\algorithm\math">
+      <UniqueIdentifier>{a6b5d44e-c014-47e7-aab9-96f35aaee5a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="库文件\xlib\algorithm\type">
+      <UniqueIdentifier>{d74c8d40-7380-4615-96d9-8e1652881e63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="库文件\xlib\algorithm\conjector">
+      <UniqueIdentifier>{19834cd8-05d2-47e7-ada4-19e1cdb28bf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="库文件\xlib\algorithm\time">
+      <UniqueIdentifier>{31079541-d3a9-479c-b44d-c36d40ea03c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="库文件\xlib\algorithm\reorder">
+      <UniqueIdentifier>{bda66d34-bb05-48ab-9f93-b93ae7ff4aa6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="库文件\xlib\data_compression">
+      <UniqueIdentifier>{07913584-001a-4533-9bbf-96b2d3654096}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="库文件\xlib\computer_language">
+      <UniqueIdentifier>{0c5b9f99-d6a7-47b8-a849-d2c5db250ec1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="库文件\xlib\computer_language\word_segment">
+      <UniqueIdentifier>{0a5e2545-4c9a-43a4-928b-c82931e07aed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="库文件\xlib\pattern learning">
+      <UniqueIdentifier>{2fb9300f-5692-4636-9ffa-f907274eca60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="库文件\xlib\pattern learning\classifier">
+      <UniqueIdentifier>{f1d9562c-5098-42e6-badf-05ac4cab5301}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="库文件\xlib\pattern learning\classifier\nearest">
+      <UniqueIdentifier>{c9ccf53e-b86c-43ec-8c68-2e4c371e2dc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="库文件\xlib\pattern learning\classifier\linear">
+      <UniqueIdentifier>{b50cd3f3-0996-4039-947f-686efba9a6d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="库文件\xlib\pattern learning\classifier\ann">
+      <UniqueIdentifier>{372b3d14-3c27-423f-be86-2567e91ba7a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="库文件\xlib\pattern learning\classifier\bayes">
+      <UniqueIdentifier>{48e9770f-0235-4e68-a593-7773ba88a6c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="库文件\xlib\pattern learning\classifier\svm">
+      <UniqueIdentifier>{643bd250-348e-4f69-b7ef-0801c128cded}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="库文件\xlib\pattern learning\classifier\hmm">
+      <UniqueIdentifier>{3415ccaa-988e-40f5-a7fd-7c3631b5dc2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="库文件\xlib\pattern learning\classifier\dec_tree">
+      <UniqueIdentifier>{bac2a1cb-783a-4c55-a612-efae151acdde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="库文件\xlib\pattern learning\classifier\aggregation">
+      <UniqueIdentifier>{2ced795c-f899-4fc2-a1cd-ea618919dd86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="库文件\xlib\pattern learning\cluster">
+      <UniqueIdentifier>{e1848521-472d-46db-aab1-e5190c80a7d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="库文件\xlib\pattern learning\featurer">
+      <UniqueIdentifier>{89fd73e3-6e74-4c27-92ea-5acc5faea148}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="库文件\xlib\util">
+      <UniqueIdentifier>{9c4a92ff-d7a8-40d8-8592-4f2456316672}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="库文件\xlib\util\easy">
+      <UniqueIdentifier>{c0165f05-95f6-4418-8492-f92621bed91c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="库文件\xlib\util\externs_for_plantform">
+      <UniqueIdentifier>{d839362a-f51e-4b5c-8042-2482b90a6dc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="库文件\xlib\util\cache">
+      <UniqueIdentifier>{ac8a54c0-4a00-48d5-a805-81d204acb3fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="库文件\xlib\util\basic">
+      <UniqueIdentifier>{76729a3e-21ef-46b1-b384-849963291cb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="库文件\xlib\util\om">
+      <UniqueIdentifier>{a59ce8a0-b062-4da3-9a90-a60c423aa9f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="库文件\xlib\autometa">
+      <UniqueIdentifier>{4a0faed3-53e5-492a-83e7-ac5b2751d3fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="库文件\xlib\autometa\lalr">
+      <UniqueIdentifier>{0118f7a8-88b7-4c95-8738-77c9188f2566}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="库文件\xlib\autometa\fa">
+      <UniqueIdentifier>{21eb1ce6-a3fc-40df-9e5e-f82a53a6c9bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="库文件\xlib\autometa\parser">
+      <UniqueIdentifier>{b9469768-4319-4ee1-9cba-e962eb7e68b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="库文件\xlib\logic">
+      <UniqueIdentifier>{b64cdb1b-0d70-47dc-b0b0-1d100317d6e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="库文件\xlib\searching">
+      <UniqueIdentifier>{52379bbf-d300-4de2-8d66-41be8886e655}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="库文件\xlib\math">
+      <UniqueIdentifier>{6393b7d0-7643-48fd-8892-63f31b352798}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="库文件\xlib\math\matrix">
+      <UniqueIdentifier>{87b8ac3f-82bc-41b9-b59e-ec2018ba6ce7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="库文件\xlib\math\graph">
+      <UniqueIdentifier>{e76ebe7f-88de-4bdd-9166-06e55487c82d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="库文件\xlib\math\transform">
+      <UniqueIdentifier>{bc8aea3e-ee4a-4a5e-ab1f-b00f08c45650}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="库文件\xlib\data_structure">
+      <UniqueIdentifier>{39de838c-59ea-4e4c-a1b8-d62cb4a82e39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="库文件\xlib\machine_intellence">
+      <UniqueIdentifier>{4ea9e952-fdfa-45bb-b3b0-c54cf8fe09c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="库文件\xlib\machine_intellence\vision">
+      <UniqueIdentifier>{e63ab7d5-e233-436c-b870-bc87ec1f9dfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="库文件\xlib\machine_intellence\audio">
+      <UniqueIdentifier>{f285bad2-cd8d-45d1-9c7c-a8b399abe36b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="库文件\xlib\machine_intellence\vedio">
+      <UniqueIdentifier>{9d31f784-b0d6-433d-a3ec-abc12ce7e3d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="库文件\xlib\machine_intellence\text">
+      <UniqueIdentifier>{2bcac77e-c988-4597-ad80-99a9e69da1eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="库文件\xlib\format">
+      <UniqueIdentifier>{c4947ec0-408c-4c5e-a498-20e501325888}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="库文件\site">
+      <UniqueIdentifier>{6b6fa579-6788-412f-8034-2d93c16beb72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="库文件\dlib">
+      <UniqueIdentifier>{5bc15643-ae2d-42f3-ace3-0ad64e119b5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="库文件\dlib\database">
+      <UniqueIdentifier>{1a45c4d8-1516-4db0-8ad5-4513c0831191}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="库文件\dlib\network">
+      <UniqueIdentifier>{ef2e3425-7281-4f60-9431-97e15e164367}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="库文件\olib">
+      <UniqueIdentifier>{e2737082-b993-4f69-828a-5bcac88e40cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="库文件\olib\out_of_time">
+      <UniqueIdentifier>{cc348dd4-4074-400c-b705-cf6ee07fb115}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="库文件\application">
+      <UniqueIdentifier>{ac6fcdf2-a308-408f-b208-d74408d71855}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="库文件\application\cdox">
+      <UniqueIdentifier>{7a69c981-30eb-4760-9d47-8a241767eadc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="库文件\application\pre_standard">
+      <UniqueIdentifier>{0a53630d-20ea-4d6f-be2b-3885fb51cabe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="库文件\application\pre_standard\jrunner">
+      <UniqueIdentifier>{4cc09f14-deaf-4de6-be9d-548018330277}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="库文件\application\pre_standard\cap">
+      <UniqueIdentifier>{0fb7e131-26b7-4a64-af9a-cf13edee1218}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="库文件\application\pre_standard\cap\cap_standard">
+      <UniqueIdentifier>{36c29508-058e-49d0-a22f-ae9eba7f1c3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="库文件\application\pre_standard\cap\cap_implement">
+      <UniqueIdentifier>{4b64fad1-4319-4c0d-862c-f4609cbadef4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="库文件\application\cis">
+      <UniqueIdentifier>{3891bb78-f553-45fc-a220-25bb1bd59cad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="库文件\application\drawer">
+      <UniqueIdentifier>{4c8cd8e0-2f6b-40dd-927d-248561383ad4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="测试文件">
+      <UniqueIdentifier>{1859adf7-3580-417f-8733-63f372b820e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="运行时文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="配置文件">
+      <UniqueIdentifier>{3dd11b44-9ca0-41d3-9395-ca124eb9fc1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="可执行应用程序">
+      <UniqueIdentifier>{8514464a-3c97-46b6-a743-624d2acb2f13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="可执行应用程序\win32">
+      <UniqueIdentifier>{ce3322fe-d80b-46d3-8e35-24ff3cc6f44e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="库文件\alib\vision">
+      <UniqueIdentifier>{0ac7eea8-c53a-478c-a527-6da418727a89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="库文件\alib\old_time">
+      <UniqueIdentifier>{a3a607ab-6332-45c7-b4f6-284787a52e72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="库文件\alib\old_time\cell_recognition">
+      <UniqueIdentifier>{23088d3e-29f8-4767-9f71-4bd5022eb1d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="库文件\alib\old_time\print_recognition">
+      <UniqueIdentifier>{7ea7135f-a9e0-4d31-b27e-09e931b673b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="库文件\alib\old_time\vkey_recognition">
+      <UniqueIdentifier>{dedf30ed-b0c1-444d-b4ee-2e960f5eca5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="库文件\alib\old_time\sky_line">
+      <UniqueIdentifier>{6e2af768-05e4-4d3c-b4c5-d05b3b5e2a85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="库文件\alib\old_time\table_recognition">
+      <UniqueIdentifier>{7c6dc256-e879-4fd1-bda8-b3ba448f2c4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="库文件\alib\vision\machine_sketch">
+      <UniqueIdentifier>{efff006f-e4c6-44dc-a0f7-ea4a45910637}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="库文件\alib\vision\image_clarity">
+      <UniqueIdentifier>{33bab423-6ac9-4846-bfa5-2f7e38a130d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="开发计划">
+      <UniqueIdentifier>{bcc60e58-b40f-4345-9fa9-6410e0ca1aac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="库文件\xlib\util\dealing">
+      <UniqueIdentifier>{6123f4ed-dcb8-47ac-a698-86a2a54392fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="库文件\alib\nlp">
+      <UniqueIdentifier>{c0d122d4-1ddd-4d44-882b-52df7107c195}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="app_import.h">
+      <Filter>库文件\alib</Filter>
+    </ClInclude>
+    <ClInclude Include="boost_app_import.h">
+      <Filter>库文件\alib</Filter>
+    </ClInclude>
+    <ClInclude Include="appc_sky_line.h">
+      <Filter>库文件\alib\old_time\sky_line</Filter>
+    </ClInclude>
+    <ClInclude Include="appc_print_spilt.h">
+      <Filter>库文件\alib\old_time\print_recognition</Filter>
+    </ClInclude>
+    <ClInclude Include="appc_recong_chinese.h">
+      <Filter>库文件\alib\old_time\print_recognition</Filter>
+    </ClInclude>
+    <ClInclude Include="appc_recongniton_chinese_pact.h">
+      <Filter>库文件\alib\old_time\print_recognition</Filter>
+    </ClInclude>
+    <ClInclude Include="appc_train_chinese_pic.h">
+      <Filter>库文件\alib\old_time\print_recognition</Filter>
+    </ClInclude>
+    <ClInclude Include="appc_cell_recognition.h">
+      <Filter>库文件\alib\old_time\cell_recognition</Filter>
+    </ClInclude>
+    <ClInclude Include="appc_vkey_more.h">
+      <Filter>库文件\alib\old_time\vkey_recognition</Filter>
+    </ClInclude>
+    <ClInclude Include="appc_vkey_train.h">
+      <Filter>库文件\alib\old_time\vkey_recognition</Filter>
+    </ClInclude>
+    <ClInclude Include="test_vkey.h">
+      <Filter>库文件\alib\old_time\vkey_recognition</Filter>
+    </ClInclude>
+    <ClInclude Include="appc_crawler.h">
+      <Filter>库文件\alib\crawler</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_recognition_table.h">
+      <Filter>库文件\alib\old_time\table_recognition</Filter>
+    </ClInclude>
+    <ClInclude Include="const.h">
+      <Filter>库文件\xlib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib_import.h">
+      <Filter>库文件\xlib</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_ci.h">
+      <Filter>库文件\xlib\computerial_intelligence</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_ci_param.h">
+      <Filter>库文件\xlib\computerial_intelligence</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_genetic_algorithm_item.h">
+      <Filter>库文件\xlib\computerial_intelligence\evoluationary_computering\genetic_algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_genetic_algorithms.h">
+      <Filter>库文件\xlib\computerial_intelligence\evoluationary_computering\genetic_algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_ci_target.h">
+      <Filter>库文件\xlib\computerial_intelligence\target</Filter>
+    </ClInclude>
+    <ClInclude Include="alg_basic.h">
+      <Filter>库文件\xlib\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="alg_math_trans.h">
+      <Filter>库文件\xlib\algorithm\math</Filter>
+    </ClInclude>
+    <ClInclude Include="alg_max_min.h">
+      <Filter>库文件\xlib\algorithm\math</Filter>
+    </ClInclude>
+    <ClInclude Include="alg_random.h">
+      <Filter>库文件\xlib\algorithm\math</Filter>
+    </ClInclude>
+    <ClInclude Include="alg_basic_type.h">
+      <Filter>库文件\xlib\algorithm\type</Filter>
+    </ClInclude>
+    <ClInclude Include="alg_string.h">
+      <Filter>库文件\xlib\algorithm\type</Filter>
+    </ClInclude>
+    <ClInclude Include="alg_vector.h">
+      <Filter>库文件\xlib\algorithm\type</Filter>
+    </ClInclude>
+    <ClInclude Include="fd_lib_type.h">
+      <Filter>库文件\xlib\algorithm\type</Filter>
+    </ClInclude>
+    <ClInclude Include="alg_conject_ann.h">
+      <Filter>库文件\xlib\algorithm\conjector</Filter>
+    </ClInclude>
+    <ClInclude Include="alg_conject_kernel.h">
+      <Filter>库文件\xlib\algorithm\conjector</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_conject_linear.h">
+      <Filter>库文件\xlib\algorithm\conjector</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_conjector_euclidean.h">
+      <Filter>库文件\xlib\algorithm\conjector</Filter>
+    </ClInclude>
+    <ClInclude Include="alg_time.h">
+      <Filter>库文件\xlib\algorithm\time</Filter>
+    </ClInclude>
+    <ClInclude Include="alg_reorder.h">
+      <Filter>库文件\xlib\algorithm\reorder</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_decoder_huffman.h">
+      <Filter>库文件\xlib\data_compression</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_decoder_prediction.h">
+      <Filter>库文件\xlib\data_compression</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_encoder_hamming.h">
+      <Filter>库文件\xlib\data_compression</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_encoder_huffman.h">
+      <Filter>库文件\xlib\data_compression</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_encoder_prediction.h">
+      <Filter>库文件\xlib\data_compression</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_word_segment.h">
+      <Filter>库文件\xlib\computer_language\word_segment</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_training_set.h">
+      <Filter>库文件\xlib\pattern learning</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_classifier.h">
+      <Filter>库文件\xlib\pattern learning\classifier</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_nearest.h">
+      <Filter>库文件\xlib\pattern learning\classifier\nearest</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_linear.h">
+      <Filter>库文件\xlib\pattern learning\classifier\linear</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_linear_fisher.h">
+      <Filter>库文件\xlib\pattern learning\classifier\linear</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_linear_lmse.h">
+      <Filter>库文件\xlib\pattern learning\classifier\linear</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_linear_multiply.h">
+      <Filter>库文件\xlib\pattern learning\classifier\linear</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_linear_multiply_abstract.h">
+      <Filter>库文件\xlib\pattern learning\classifier\linear</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_linear_multiply_lmse.h">
+      <Filter>库文件\xlib\pattern learning\classifier\linear</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_linear_potential.h">
+      <Filter>库文件\xlib\pattern learning\classifier\linear</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_linear_sensor.h">
+      <Filter>库文件\xlib\pattern learning\classifier\linear</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_linear_sensor_grad_normz.h">
+      <Filter>库文件\xlib\pattern learning\classifier\linear</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_linear_sensor_increasement.h">
+      <Filter>库文件\xlib\pattern learning\classifier\linear</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_linear_unit.h">
+      <Filter>库文件\xlib\pattern learning\classifier\linear</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_linear_unit_abstract.h">
+      <Filter>库文件\xlib\pattern learning\classifier\linear</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_linear_unit_fisher.h">
+      <Filter>库文件\xlib\pattern learning\classifier\linear</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_linear_unit_gradian.h">
+      <Filter>库文件\xlib\pattern learning\classifier\linear</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_linear_unit_increasement_sensor.h">
+      <Filter>库文件\xlib\pattern learning\classifier\linear</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_linear_unit_lmse.h">
+      <Filter>库文件\xlib\pattern learning\classifier\linear</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_linear_unit_normalized_sensor.h">
+      <Filter>库文件\xlib\pattern learning\classifier\linear</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_linear_unit_sensor.h">
+      <Filter>库文件\xlib\pattern learning\classifier\linear</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_linear_unit_wh.h">
+      <Filter>库文件\xlib\pattern learning\classifier\linear</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_linear_wh.h">
+      <Filter>库文件\xlib\pattern learning\classifier\linear</Filter>
+    </ClInclude>
+    <ClInclude Include="ann_import.h">
+      <Filter>库文件\xlib\pattern learning\classifier\ann</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_ann_abstract_neuron.h">
+      <Filter>库文件\xlib\pattern learning\classifier\ann</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_ann_center_neuron.h">
+      <Filter>库文件\xlib\pattern learning\classifier\ann</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_ann_eicledian_topology.h">
+      <Filter>库文件\xlib\pattern learning\classifier\ann</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_ann_input_neuron.h">
+      <Filter>库文件\xlib\pattern learning\classifier\ann</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_ann_layer.h">
+      <Filter>库文件\xlib\pattern learning\classifier\ann</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_ann_layer_input.h">
+      <Filter>库文件\xlib\pattern learning\classifier\ann</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_ann_link.h">
+      <Filter>库文件\xlib\pattern learning\classifier\ann</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_ann_network.h">
+      <Filter>库文件\xlib\pattern learning\classifier\ann</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_ann_network_bilayer.h">
+      <Filter>库文件\xlib\pattern learning\classifier\ann</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_ann_network_hopfield.h">
+      <Filter>库文件\xlib\pattern learning\classifier\ann</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_ann_network_kohonen.h">
+      <Filter>库文件\xlib\pattern learning\classifier\ann</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_ann_network_mutilayer.h">
+      <Filter>库文件\xlib\pattern learning\classifier\ann</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_ann_network_radial_basis.h">
+      <Filter>库文件\xlib\pattern learning\classifier\ann</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_ann_network_recurrent.h">
+      <Filter>库文件\xlib\pattern learning\classifier\ann</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_ann_network_trilayer.h">
+      <Filter>库文件\xlib\pattern learning\classifier\ann</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_ann_neuron.h">
+      <Filter>库文件\xlib\pattern learning\classifier\ann</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_ann_neuron_gab.h">
+      <Filter>库文件\xlib\pattern learning\classifier\ann</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_ann_neuron_kohonen.h">
+      <Filter>库文件\xlib\pattern learning\classifier\ann</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_ann_neuron_parametized.h">
+      <Filter>库文件\xlib\pattern learning\classifier\ann</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_ann_neuron_recurrent.h">
+      <Filter>库文件\xlib\pattern learning\classifier\ann</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_ann_simple_neuron.h">
+      <Filter>库文件\xlib\pattern learning\classifier\ann</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_bayes.h">
+      <Filter>库文件\xlib\pattern learning\classifier\bayes</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_bayes_basis.h">
+      <Filter>库文件\xlib\pattern learning\classifier\bayes</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_bayes_least_error.h">
+      <Filter>库文件\xlib\pattern learning\classifier\bayes</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_bayes_least_risk.h">
+      <Filter>库文件\xlib\pattern learning\classifier\bayes</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_bayes_unit.h">
+      <Filter>库文件\xlib\pattern learning\classifier\bayes</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_bayes_unit_least_error.h">
+      <Filter>库文件\xlib\pattern learning\classifier\bayes</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_svm.h">
+      <Filter>库文件\xlib\pattern learning\classifier\svm</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_svm_base.h">
+      <Filter>库文件\xlib\pattern learning\classifier\svm</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_svm_cache.h">
+      <Filter>库文件\xlib\pattern learning\classifier\svm</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_svm_child.h">
+      <Filter>库文件\xlib\pattern learning\classifier\svm</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_svm_param.h">
+      <Filter>库文件\xlib\pattern learning\classifier\svm</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_svm_probability.h">
+      <Filter>库文件\xlib\pattern learning\classifier\svm</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_svm_solve.h">
+      <Filter>库文件\xlib\pattern learning\classifier\svm</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_svm_solver.h">
+      <Filter>库文件\xlib\pattern learning\classifier\svm</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_svm_solver_nu.h">
+      <Filter>库文件\xlib\pattern learning\classifier\svm</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_svm_train.h">
+      <Filter>库文件\xlib\pattern learning\classifier\svm</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_hmm.h">
+      <Filter>库文件\xlib\pattern learning\classifier\hmm</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_detree_simple.h">
+      <Filter>库文件\xlib\pattern learning\classifier\dec_tree</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_bagging.h">
+      <Filter>库文件\xlib\pattern learning\classifier\aggregation</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_boosting.h">
+      <Filter>库文件\xlib\pattern learning\classifier\aggregation</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_boosting_first.h">
+      <Filter>库文件\xlib\pattern learning\classifier\aggregation</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_boosting_second.h">
+      <Filter>库文件\xlib\pattern learning\classifier\aggregation</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_cluster.h">
+      <Filter>库文件\xlib\pattern learning\cluster</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_cluster_fuzzy.h">
+      <Filter>库文件\xlib\pattern learning\cluster</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_cluster_hierarchical.h">
+      <Filter>库文件\xlib\pattern learning\cluster</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_cluster_isoda.h">
+      <Filter>库文件\xlib\pattern learning\cluster</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_cluster_k_means.h">
+      <Filter>库文件\xlib\pattern learning\cluster</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_cluster_max_min_distance.h">
+      <Filter>库文件\xlib\pattern learning\cluster</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_cluster_threshod.h">
+      <Filter>库文件\xlib\pattern learning\cluster</Filter>
+    </ClInclude>
+    <ClInclude Include="alg_feature.h">
+      <Filter>库文件\xlib\pattern learning\featurer</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_log.h">
+      <Filter>库文件\xlib\util</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_triple.h">
+      <Filter>库文件\xlib\util\easy</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_xml.h">
+      <Filter>库文件\xlib\util\easy</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_xml_wide.h">
+      <Filter>库文件\xlib\util\easy</Filter>
+    </ClInclude>
+    <ClInclude Include="alg_externs.h">
+      <Filter>库文件\xlib\util\externs_for_plantform</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_object_cache.h">
+      <Filter>库文件\xlib\util\cache</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_circle.h">
+      <Filter>库文件\xlib\util\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_exception.h">
+      <Filter>库文件\xlib\util\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_multi_array.h">
+      <Filter>库文件\xlib\util\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_object.h">
+      <Filter>库文件\xlib\util\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_point.h">
+      <Filter>库文件\xlib\util\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_rect.h">
+      <Filter>库文件\xlib\util\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_object_manager.h">
+      <Filter>库文件\xlib\util\om</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_lalr.h">
+      <Filter>库文件\xlib\autometa\lalr</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_lalr_frame.h">
+      <Filter>库文件\xlib\autometa\lalr</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_lalr_frame_wide.h">
+      <Filter>库文件\xlib\autometa\lalr</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_dfa.h">
+      <Filter>库文件\xlib\autometa\fa</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_html_parser_extended.h">
+      <Filter>库文件\xlib\autometa\parser</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_parser.h">
+      <Filter>库文件\xlib\autometa\parser</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_parser_css.h">
+      <Filter>库文件\xlib\autometa\parser</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_parser_html.h">
+      <Filter>库文件\xlib\autometa\parser</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_parser_math_expr.h">
+      <Filter>库文件\xlib\autometa\parser</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_parser_math_expr_wide.h">
+      <Filter>库文件\xlib\autometa\parser</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_parser_wide.h">
+      <Filter>库文件\xlib\autometa\parser</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_parser_xml_wide.h">
+      <Filter>库文件\xlib\autometa\parser</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_xml_parser.h">
+      <Filter>库文件\xlib\autometa\parser</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_wff.h">
+      <Filter>库文件\xlib\logic</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_search.h">
+      <Filter>库文件\xlib\searching</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_search_best_first.h">
+      <Filter>库文件\xlib\searching</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_search_breadth.h">
+      <Filter>库文件\xlib\searching</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_search_depth.h">
+      <Filter>库文件\xlib\searching</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_search_depth_iterative.h">
+      <Filter>库文件\xlib\searching</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_search_depth_limit.h">
+      <Filter>库文件\xlib\searching</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_search_hill_climbing.h">
+      <Filter>库文件\xlib\searching</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_mat.h">
+      <Filter>库文件\xlib\math\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_matrix.h">
+      <Filter>库文件\xlib\math\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_graph_basic.h">
+      <Filter>库文件\xlib\math\graph</Filter>
+    </ClInclude>
+    <ClInclude Include="scls_signal_trans.h">
+      <Filter>库文件\xlib\math\transform</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_segment_tree.h">
+      <Filter>库文件\xlib\data_structure</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_static_tree.h">
+      <Filter>库文件\xlib\data_structure</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_union_set.h">
+      <Filter>库文件\xlib\data_structure</Filter>
+    </ClInclude>
+    <ClInclude Include="scls_color_space.h">
+      <Filter>库文件\xlib\machine_intellence</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_image.h">
+      <Filter>库文件\xlib\machine_intellence\vision</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_vision.h">
+      <Filter>库文件\xlib\machine_intellence\vision</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_vision_basis.h">
+      <Filter>库文件\xlib\machine_intellence\vision</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_vision_detection.h">
+      <Filter>库文件\xlib\machine_intellence\vision</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_vision_dot.h">
+      <Filter>库文件\xlib\machine_intellence\vision</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_vision_enhance_frequence.h">
+      <Filter>库文件\xlib\machine_intellence\vision</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_vision_enhance_space.h">
+      <Filter>库文件\xlib\machine_intellence\vision</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_vision_feature.h">
+      <Filter>库文件\xlib\machine_intellence\vision</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_vision_geometry.h">
+      <Filter>库文件\xlib\machine_intellence\vision</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_vision_mixed.h">
+      <Filter>库文件\xlib\machine_intellence\vision</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_vision_morphology.h">
+      <Filter>库文件\xlib\machine_intellence\vision</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_vision_split.h">
+      <Filter>库文件\xlib\machine_intellence\vision</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_vision_stereo.h">
+      <Filter>库文件\xlib\machine_intellence\vision</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_vision_threshold.h">
+      <Filter>库文件\xlib\machine_intellence\vision</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_vision_transform.h">
+      <Filter>库文件\xlib\machine_intellence\vision</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_audio.h">
+      <Filter>库文件\xlib\machine_intellence\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="alg_load_save.h">
+      <Filter>库文件\xlib\format</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_format_bmp.h">
+      <Filter>库文件\xlib\format</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_format_jpg.h">
+      <Filter>库文件\xlib\format</Filter>
+    </ClInclude>
+    <ClInclude Include="site_import.h">
+      <Filter>库文件\site</Filter>
+    </ClInclude>
+    <ClInclude Include="boost_import.h">
+      <Filter>库文件\dlib</Filter>
+    </ClInclude>
+    <ClInclude Include="dlib_import.h">
+      <Filter>库文件\dlib</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_database.h">
+      <Filter>库文件\dlib\database</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_database_param.h">
+      <Filter>库文件\dlib\database</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_mysql.h">
+      <Filter>库文件\dlib\database</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_mysql_operator.h">
+      <Filter>库文件\dlib\database</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_http_client.h">
+      <Filter>库文件\dlib\network</Filter>
+    </ClInclude>
+    <ClInclude Include="bayes_import.h">
+      <Filter>库文件\olib\out_of_time</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_ann_boltzman.h">
+      <Filter>库文件\olib\out_of_time</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_ann_bpnn.h">
+      <Filter>库文件\olib\out_of_time</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_ann_cpnn.h">
+      <Filter>库文件\olib\out_of_time</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_ann_hopfield.h">
+      <Filter>库文件\olib\out_of_time</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_bayes_binary_old_time.h">
+      <Filter>库文件\olib\out_of_time</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_bayes_least_error_old_time.h">
+      <Filter>库文件\olib\out_of_time</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_bayes_least_risk_old_time.h">
+      <Filter>库文件\olib\out_of_time</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_bayes_old_time.h">
+      <Filter>库文件\olib\out_of_time</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_image_ot.h">
+      <Filter>库文件\olib\out_of_time</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_linear_fisher_bi_pat.h">
+      <Filter>库文件\olib\out_of_time</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_linear_increasement.h">
+      <Filter>库文件\olib\out_of_time</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_linear_lmse_old.h">
+      <Filter>库文件\olib\out_of_time</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_linear_old_fisher.h">
+      <Filter>库文件\olib\out_of_time</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_linear_punish.h">
+      <Filter>库文件\olib\out_of_time</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_pso_basic.h">
+      <Filter>库文件\olib\out_of_time</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_pso_mixed_dim.h">
+      <Filter>库文件\olib\out_of_time</Filter>
+    </ClInclude>
+    <ClInclude Include="cdox_import.h">
+      <Filter>库文件\application\cdox</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_cdox_machine.h">
+      <Filter>库文件\application\cdox</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_cdox_object.h">
+      <Filter>库文件\application\cdox</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_cdox_standard.h">
+      <Filter>库文件\application\cdox</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_jrunner.h">
+      <Filter>库文件\application\pre_standard\jrunner</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_jrunner_parser.h">
+      <Filter>库文件\application\pre_standard\jrunner</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_jrunner_symbols.h">
+      <Filter>库文件\application\pre_standard\jrunner</Filter>
+    </ClInclude>
+    <ClInclude Include="jrunner_import.h">
+      <Filter>库文件\application\pre_standard\jrunner</Filter>
+    </ClInclude>
+    <ClInclude Include="cap_import.h">
+      <Filter>库文件\application\pre_standard\cap</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_cap_command.h">
+      <Filter>库文件\application\pre_standard\cap\cap_standard</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_cap_program.h">
+      <Filter>库文件\application\pre_standard\cap\cap_standard</Filter>
+    </ClInclude>
+    <ClInclude Include="scls_cap_standard.h">
+      <Filter>库文件\application\pre_standard\cap\cap_standard</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_cap_runner.h">
+      <Filter>库文件\application\pre_standard\cap\cap_implement</Filter>
+    </ClInclude>
+    <ClInclude Include="cis_import.h">
+      <Filter>库文件\application\cis</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_cis_symbol.h">
+      <Filter>库文件\application\cis</Filter>
+    </ClInclude>
+    <ClInclude Include="appc_drawer.h">
+      <Filter>库文件\application\drawer</Filter>
+    </ClInclude>
+    <ClInclude Include="test_import.h">
+      <Filter>测试文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_format_psd.h">
+      <Filter>库文件\xlib\format</Filter>
+    </ClInclude>
+    <ClInclude Include="appc_machine_sketch.h">
+      <Filter>库文件\alib\vision\machine_sketch</Filter>
+    </ClInclude>
+    <ClInclude Include="appc_image_clearity_dct_enhance.h">
+      <Filter>库文件\alib\vision\image_clarity</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_vision_restoration.h">
+      <Filter>库文件\xlib\machine_intellence\vision</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_dealing.h">
+      <Filter>库文件\xlib\util\dealing</Filter>
+    </ClInclude>
+    <ClInclude Include="appc_ann_spilt.h">
+      <Filter>库文件\alib\nlp</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="test_recong_chinese.cpp">
+      <Filter>库文件\alib\old_time\print_recognition</Filter>
+    </ClCompile>
+    <ClCompile Include="cls_svm.cpp">
+      <Filter>库文件\xlib\pattern learning\classifier\svm</Filter>
+    </ClCompile>
+    <ClCompile Include="test_autometa.cpp">
+      <Filter>测试文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test_ci.cpp">
+      <Filter>测试文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test_classifier.cpp">
+      <Filter>测试文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test_cluster.cpp">
+      <Filter>测试文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test_database.cpp">
+      <Filter>测试文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test_search.cpp">
+      <Filter>测试文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test_struct.cpp">
+      <Filter>测试文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test_vision.cpp">
+      <Filter>测试文件</Filter>
+    </ClCompile>
+    <ClCompile Include="thedox.cpp">
+      <Filter>运行时文件</Filter>
+    </ClCompile>
+    <ClCompile Include="format_static.h">
+      <Filter>库文件\xlib\format</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="plan_for_thedox_and_life.txt">
+      <Filter>开发计划</Filter>
+    </None>
+    <None Include="config\cap_config_in.config">
+      <Filter>配置文件</Filter>
+    </None>
+    <None Include="config\js.bnf.config">
+      <Filter>配置文件</Filter>
+    </None>
+    <None Include="config\xml_parser.config">
+      <Filter>配置文件</Filter>
+    </None>
+    <None Include="bin\win32\nasm.exe">
+      <Filter>可执行应用程序\win32</Filter>
+    </None>
+    <None Include="bin\win32\ndisasm.exe">
+      <Filter>可执行应用程序\win32</Filter>
+    </None>
+  </ItemGroup>
+</Project>

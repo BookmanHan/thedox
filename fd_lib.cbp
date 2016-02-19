@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="thedox" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug Win32">
+				<Option output="fd_lib" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Debug Win32" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-DWIN32" />
+					<Add option="-D_DEBUG" />
+					<Add option="-D_CONSOLE" />
+					<Add option="-W" />
+					<Add option="-O0" />
+					<Add directory="$(INTEL_DEF_IA32_INSTALL_DIR)IPP\ia32\Include" />
+					<Add directory="$(INTEL_DEF_IA32_INSTALL_DIR)TBB\Include" />
+					<Add directory="$(INTEL_DEF_IA32_INSTALL_DIR)MKL\Include" />
+					<Add directory="$(INTEL_DEF_IA32_INSTALL_DIR)MKL\Include\fftw" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="$(INTEL_DEF_IA32_INSTALL_DIR)IPP\ia32\Include" />
+					<Add directory="$(INTEL_DEF_IA32_INSTALL_DIR)TBB\Include" />
+					<Add directory="$(INTEL_DEF_IA32_INSTALL_DIR)MKL\Include" />
+					<Add directory="$(INTEL_DEF_IA32_INSTALL_DIR)MKL\Include\fftw" />
+				</ResourceCompiler>
+				<Linker>
+					<Add directory="$(INTEL_DEF_IA32_INSTALL_DIR)IPP\ia32\stublib" />
+					<Add directory="$(INTEL_DEF_IA32_INSTALL_DIR)TBB\ia32\vc9\Lib" />
+					<Add directory="$(INTEL_DEF_IA32_INSTALL_DIR)Lib\ia32" />
+					<Add directory="$(INTEL_DEF_IA32_INSTALL_DIR)MKL\ia32\Lib" />
+				</Linker>
+			</Target>
+			<Target title="Release Win32">
+				<Option output="fd_lib" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Release Win32" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-DWIN32" />
+					<Add option="-DNDEBUG" />
+					<Add option="-D_CONSOLE" />
+					<Add option="-W" />
+					<Add option="-O2" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Unit filename="app_import.h" />
+		<Unit filename="boost_app_import.h" />
+		<Unit filename="appc_sky_line.h" />
+		<Unit filename="appc_print_spilt.h" />
+		<Unit filename="appc_recong_chinese.h" />
+		<Unit filename="appc_recongniton_chinese_pact.h" />
+		<Unit filename="appc_train_chinese_pic.h" />
+		<Unit filename="test_recong_chinese.cpp" />
+		<Unit filename="appc_cell_recognition.h" />
+		<Unit filename="const.h" />
+		<Unit filename="lib_import.h" />
+		<Unit filename="cls_circle.h" />
+		<Unit filename="cls_multi_array.h" />
+		<Unit filename="cls_point.h" />
+		<Unit filename="cls_rect.h" />
+		<Unit filename="cls_mat.h" />
+		<Unit filename="cls_matrix.h" />
+		<Unit filename="cls_vec.h" />
+		<Unit filename="cls_audio.h" />
+		<Unit filename="cls_image.h" />
+		<Unit filename="cls_segment_tree.h" />
+		<Unit filename="cls_static_tree.h" />
+		<Unit filename="cls_union_set.h" />
+		<Unit filename="cls_ci.h" />
+		<Unit filename="cls_ci_param.h" />
+		<Unit filename="cls_genetic_algorithm_item.h" />
+		<Unit filename="cls_genetic_algorithms.h" />
+		<Unit filename="cls_ci_target.h" />
+		<Unit filename="alg_basic.h" />
+		<Unit filename="alg_math_trans.h" />
+		<Unit filename="alg_max_min.h" />
+		<Unit filename="alg_random.h" />
+		<Unit filename="alg_basic_type.h" />
+		<Unit filename="alg_string.h" />
+		<Unit filename="alg_vector.h" />
+		<Unit filename="fd_lib_type.h" />
+		<Unit filename="alg_load_save.h" />
+		<Unit filename="alg_conject_ann.h" />
+		<Unit filename="alg_conject_kernel.h" />
+		<Unit filename="cls_conject_linear.h" />
+		<Unit filename="cls_conjector_euclidean.h" />
+		<Unit filename="alg_time.h" />
+		<Unit filename="alg_reorder.h" />
+		<Unit filename="cls_decoder_huffman.h" />
+		<Unit filename="cls_decoder_prediction.h" />
+		<Unit filename="cls_encoder_hamming.h" />
+		<Unit filename="cls_encoder_huffman.h" />
+		<Unit filename="cls_encoder_prediction.h" />
+		<Unit filename="cls_word_segment.h" />
+		<Unit filename="cls_exception.h" />
+		<Unit filename="cls_object.h" />
+		<Unit filename="cls_object_manager.h" />
+		<Unit filename="cls_object_cache.h" />
+		<Unit filename="cls_training_set.h" />
+		<Unit filename="cls_classifier.h" />
+		<Unit filename="cls_nearest.h" />
+		<Unit filename="cls_linear.h" />
+		<Unit filename="cls_linear_fisher.h" />
+		<Unit filename="cls_linear_lmse.h" />
+		<Unit filename="cls_linear_multiply.h" />
+		<Unit filename="cls_linear_multiply_abstract.h" />
+		<Unit filename="cls_linear_multiply_lmse.h" />
+		<Unit filename="cls_linear_potential.h" />
+		<Unit filename="cls_linear_sensor.h" />
+		<Unit filename="cls_linear_sensor_grad_normz.h" />
+		<Unit filename="cls_linear_sensor_increasement.h" />
+		<Unit filename="cls_linear_unit.h" />
+		<Unit filename="cls_linear_unit_abstract.h" />
+		<Unit filename="cls_linear_unit_fisher.h" />
+		<Unit filename="cls_linear_unit_gradian.h" />
+		<Unit filename="cls_linear_unit_increasement_sensor.h" />
+		<Unit filename="cls_linear_unit_lmse.h" />
+		<Unit filename="cls_linear_unit_normalized_sensor.h" />
+		<Unit filename="cls_linear_unit_sensor.h" />
+		<Unit filename="cls_linear_unit_wh.h" />
+		<Unit filename="cls_linear_wh.h" />
+		<Unit filename="ann_import.h" />
+		<Unit filename="cls_ann_abstract_neuron.h" />
+		<Unit filename="cls_ann_center_neuron.h" />
+		<Unit filename="cls_ann_eicledian_topology.h" />
+		<Unit filename="cls_ann_input_neuron.h" />
+		<Unit filename="cls_ann_layer.h" />
+		<Unit filename="cls_ann_layer_input.h" />
+		<Unit filename="cls_ann_link.h" />
+		<Unit filename="cls_ann_network.h" />
+		<Unit filename="cls_ann_network_bilayer.h" />
+		<Unit filename="cls_ann_network_hopfield.h" />
+		<Unit filename="cls_ann_network_kohonen.h" />
+		<Unit filename="cls_ann_network_mutilayer.h" />
+		<Unit filename="cls_ann_network_radial_basis.h" />
+		<Unit filename="cls_ann_network_recurrent.h" />
+		<Unit filename="cls_ann_network_trilayer.h" />
+		<Unit filename="cls_ann_neuron.h" />
+		<Unit filename="cls_ann_neuron_gab.h" />
+		<Unit filename="cls_ann_neuron_kohonen.h" />
+		<Unit filename="cls_ann_neuron_parametized.h" />
+		<Unit filename="cls_ann_neuron_recurrent.h" />
+		<Unit filename="cls_ann_simple_neuron.h" />
+		<Unit filename="cls_bayes.h" />
+		<Unit filename="cls_bayes_basis.h" />
+		<Unit filename="cls_bayes_least_error.h" />
+		<Unit filename="cls_bayes_least_risk.h" />
+		<Unit filename="cls_bayes_unit.h" />
+		<Unit filename="cls_bayes_unit_least_error.h" />
+		<Unit filename="cls_svm.cpp" />
+		<Unit filename="cls_svm.h" />
+		<Unit filename="cls_svm_base.h" />
+		<Unit filename="cls_svm_cache.h" />
+		<Unit filename="cls_svm_child.h" />
+		<Unit filename="cls_svm_param.h" />
+		<Unit filename="cls_svm_probability.h" />
+		<Unit filename="cls_svm_solve.h" />
+		<Unit filename="cls_svm_solver.h" />
+		<Unit filename="cls_svm_solver_nu.h" />
+		<Unit filename="cls_svm_train.h" />
+		<Unit filename="cls_hmm.h" />
+		<Unit filename="cls_detree_simple.h" />
+		<Unit filename="cls_bagging.h" />
+		<Unit filename="cls_boosting.h" />
+		<Unit filename="cls_boosting_first.h" />
+		<Unit filename="cls_boosting_second.h" />
+		<Unit filename="cls_cluster.h" />
+		<Unit filename="cls_cluster_k_means.h" />
+		<Unit filename="alg_feature.h" />
+		<Unit filename="cls_log.h" />
+		<Unit filename="cls_triple.h" />
+		<Unit filename="cls_xml.h" />
+		<Unit filename="alg_externs.h" />
+		<Unit filename="bayes_import.h" />
+		<Unit filename="cls_ann_boltzman.h" />
+		<Unit filename="cls_ann_bpnn.h" />
+		<Unit filename="cls_ann_cpnn.h" />
+		<Unit filename="cls_ann_hopfield.h" />
+		<Unit filename="cls_bayes_binary_old_time.h" />
+		<Unit filename="cls_bayes_least_error_old_time.h" />
+		<Unit filename="cls_bayes_least_risk_old_time.h" />
+		<Unit filename="cls_bayes_old_time.h" />
+		<Unit filename="cls_linear_fisher_bi_pat.h" />
+		<Unit filename="cls_linear_increasement.h" />
+		<Unit filename="cls_linear_lmse_old.h" />
+		<Unit filename="cls_linear_old_fisher.h" />
+		<Unit filename="cls_linear_punish.h" />
+		<Unit filename="cls_pso_basic.h" />
+		<Unit filename="cls_pso_mixed_dim.h" />
+		<Unit filename="cls_lalr.h" />
+		<Unit filename="cls_lalr_frame.h" />
+		<Unit filename="cls_dfa.h" />
+		<Unit filename="cls_parser.h" />
+		<Unit filename="cls_parser_math_expr.h" />
+		<Unit filename="cls_xml_parser.h" />
+		<Unit filename="site_import.h" />
+		<Unit filename="cap_import.h" />
+		<Unit filename="cap_commands.h" />
+		<Unit filename="cap_types.h" />
+		<Unit filename="capc_commands.h" />
+		<Unit filename="capc_symbol_manager.h" />
+		<Unit filename="capc_symbol_table.h" />
+		<Unit filename="capc_symbol_table_item.h" />
+		<Unit filename="capc_lexical.h" />
+		<Unit filename="boost_import.h" />
+		<Unit filename="dlib_import.h" />
+		<Unit filename="cls_database.h" />
+		<Unit filename="cls_database_param.h" />
+		<Unit filename="cls_mysql.h" />
+		<Unit filename="cls_mysql_operator.h" />
+		<Unit filename="cls_http_client.h" />
+		<Unit filename="plan_for_thedox_and_life.txt" />
+		<Unit filename="test_autometa.cpp" />
+		<Unit filename="test_ci.cpp" />
+		<Unit filename="test_classifier.cpp" />
+		<Unit filename="test_cluster.cpp" />
+		<Unit filename="test_database.cpp" />
+		<Unit filename="test_import.h" />
+		<Unit filename="test_struct.cpp" />
+		<Unit filename="thedox.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

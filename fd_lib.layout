@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug Win32" />
+	<File name="alg_load_save.h" open="1" top="0" tabpos="13">
+		<Cursor position="5054" topLine="180" />
+	</File>
+	<File name="alg_string.h" open="1" top="0" tabpos="14">
+		<Cursor position="792" topLine="40" />
+	</File>
+	<File name="alg_time.h" open="1" top="1" tabpos="2">
+		<Cursor position="817" topLine="22" />
+	</File>
+	<File name="ann_import.h" open="1" top="0" tabpos="4">
+		<Cursor position="2231" topLine="133" />
+	</File>
+	<File name="appc_recong_chinese.h" open="1" top="0" tabpos="15">
+		<Cursor position="6122" topLine="252" />
+	</File>
+	<File name="appc_recongniton_chinese_pact.h" open="1" top="0" tabpos="16">
+		<Cursor position="1152" topLine="26" />
+	</File>
+	<File name="appc_sky_line.h" open="1" top="0" tabpos="17">
+		<Cursor position="2046" topLine="81" />
+	</File>
+	<File name="appc_train_chinese_pic.h" open="1" top="0" tabpos="18">
+		<Cursor position="1346" topLine="43" />
+	</File>
+	<File name="cls_ann_bpnn.h" open="1" top="0" tabpos="19">
+		<Cursor position="2475" topLine="119" />
+	</File>
+	<File name="cls_ann_cpnn.h" open="1" top="0" tabpos="20">
+		<Cursor position="601" topLine="26" />
+	</File>
+	<File name="cls_ann_hopfield.h" open="1" top="0" tabpos="21">
+		<Cursor position="590" topLine="29" />
+	</File>
+	<File name="cls_bayes.h" open="1" top="0" tabpos="11">
+		<Cursor position="2388" topLine="114" />
+	</File>
+	<File name="cls_bayes_least_error.h" open="1" top="0" tabpos="10">
+		<Cursor position="868" topLine="33" />
+	</File>
+	<File name="cls_bayes_least_risk.h" open="1" top="0" tabpos="8">
+		<Cursor position="1041" topLine="45" />
+	</File>
+	<File name="cls_bayes_unit.h" open="1" top="0" tabpos="9">
+		<Cursor position="1068" topLine="39" />
+	</File>
+	<File name="cls_bayes_unit_least_error.h" open="1" top="0" tabpos="12">
+		<Cursor position="1953" topLine="84" />
+	</File>
+	<File name="cls_lalr.h" open="1" top="0" tabpos="7">
+		<Cursor position="13243" topLine="681" />
+	</File>
+	<File name="cls_lalr_frame.h" open="1" top="0" tabpos="22">
+		<Cursor position="10214" topLine="470" />
+	</File>
+	<File name="cls_linear_old_fisher.h" open="1" top="0" tabpos="23">
+		<Cursor position="161" topLine="0" />
+	</File>
+	<File name="cls_object_cache.h" open="1" top="0" tabpos="3">
+		<Cursor position="372" topLine="18" />
+	</File>
+	<File name="cls_parser.h" open="1" top="0" tabpos="5">
+		<Cursor position="301" topLine="12" />
+	</File>
+	<File name="cls_xml_parser.h" open="1" top="0" tabpos="6">
+		<Cursor position="6681" topLine="306" />
+	</File>
+	<File name="lib_import.h" open="1" top="0" tabpos="1">
+		<Cursor position="38" topLine="0" />
+	</File>
+	<File name="test_autometa.cpp" open="1" top="0" tabpos="24">
+		<Cursor position="1661" topLine="55" />
+	</File>
+	<File name="test_classifier.cpp" open="1" top="0" tabpos="25">
+		<Cursor position="9290" topLine="561" />
+	</File>
+	<File name="test_recong_chinese.cpp" open="1" top="0" tabpos="26">
+		<Cursor position="730" topLine="8" />
+	</File>
+	<File name="thedox.cpp" open="1" top="0" tabpos="27">
+		<Cursor position="450" topLine="4" />
+	</File>
+</CodeBlocks_layout_file>

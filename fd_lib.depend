@@ -1,0 +1,503 @@
+# depslib dependency file v1.0
+1313164069 source:d:\doing\research\thedox\test_ci.cpp
+	"lib_import.h"
+
+1313164032 d:\doing\research\thedox\lib_import.h
+	<iostream>
+	<vector>
+	<map>
+	<complex>
+	<cctype>
+	<fstream>
+	<sstream>
+	<set>
+	<map>
+	<list>
+	<cstdio>
+	<cstdlib>
+	<queue>
+	<cmath>
+	<cstring>
+	<iomanip>
+	<ctime>
+	<assert.h>
+	<exception>
+	<algorithm>
+	<bitset>
+	"const.h"
+	"cls_object.h"
+	"cls_exception.h"
+	"cls_object_cache.h"
+	"alg_externs.h"
+	"alg_time.h"
+	"alg_random.h"
+	"alg_conject_ann.h"
+	"alg_max_min.h"
+	"cls_conject_linear.h"
+	"fd_lib_type.h"
+	"cls_conjector_euclidean.h"
+	"cls_rect.h"
+	"cls_point.h"
+	"cls_circle.h"
+	"cls_multi_array.h"
+	"cls_triple.h"
+	"cls_mat.h"
+	"alg_math_trans.h"
+	"cls_image.h"
+	"cls_union_set.h"
+	"alg_basic.h"
+	"cls_training_set.h"
+	"cls_classifier.h"
+	"cls_ann_bpnn.h"
+	"cls_ann_boltzman.h"
+	"cls_ann_cpnn.h"
+	"cls_ann_hopfield.h"
+	"cls_nearest.h"
+	"cls_bayes_binary.h"
+	"cls_bayes_least_error.h"
+	"cls_bayes_least_risk.h"
+	"ann_import.h"
+	"cls_ann_link.h"
+	"cls_ann_neuron.h"
+	"cls_ann_abstract_neuron.h"
+	"cls_ann_simple_neuron.h"
+	"cls_ann_center_neuron.h"
+	"cls_ann_input_neuron.h"
+	"cls_ann_layer.h"
+	"cls_ann_layer_input.h"
+	"cls_ann_network.h"
+	"cls_ann_network_mutilayer.h"
+	"cls_ann_network_bilayer.h"
+	"cls_ann_network_trilayer.h"
+	"cls_ann_network_hopfield.h"
+	"cls_ann_neuron_gab.h"
+	"cls_ann_neuron_parametized.h"
+	"cls_ann_neuron_recurrent.h"
+	"cls_ann_network_radial_basis.h"
+	"cls_ann_network_recurrent.h"
+	"cls_ann_neuron_kohonen.h"
+	"cls_ann_eicledian_topology.h"
+	"cls_ann_network_kohonen.h"
+	"cls_linear_unit.h"
+	"cls_linear_unit_abstract.h"
+	"cls_linear_unit_sensor.h"
+	"cls_linear.h"
+	"cls_linear_sensor.h"
+	"cls_linear_unit_normalized_sensor.h"
+	"cls_linear_unit_gradian.h"
+	"cls_linear_sensor_grad_normz.h"
+	"cls_linear_unit_increasement_sensor.h"
+	"cls_linear_sensor_increasement.h"
+	"cls_linear_unit_wh.h"
+	"cls_linear_wh.h"
+	"cls_linear_unit_fisher.h"
+	"cls_linear_fisher.h"
+	"cls_linear_unit_lmse.h"
+	"cls_linear_lmse.h"
+	"cls_linear_multiply.h"
+	"cls_linear_multiply_abstract.h"
+	"cls_linear_multiply_lmse.h"
+	"cls_svm_param.h"
+	"alg_conject_kernel.h"
+	"cls_svm.h"
+	"cls_svm_cache.h"
+	"cls_svm_solver.h"
+	"cls_svm_solver_nu.h"
+	"cls_svm_solve.h"
+	"cls_svm_train.h"
+	"cls_svm_probability.h"
+	"cls_svm_base.h"
+	"cls_svm_child.h"
+	"cls_hmm.h"
+	"cls_boosting.h"
+	"cls_boosting_first.h"
+	"cls_boosting_second.h"
+	"cls_bagging.h"
+	"cls_ci_target.h"
+	"cls_pso_basic.h"
+	"cls_pso_mixed_dim.h"
+	"cls_ci.h"
+	"cls_ci_param.h"
+	"cls_genetic_algorithm_item.h"
+	"cls_genetic_algorithms.h"
+	"alg_string.h"
+	"alg_basic_type.h"
+	"alg_vector.h"
+	"alg_feature.h"
+	"alg_reorder.h"
+	"cls_decoder_huffman.h"
+	"cls_encoder_huffman.h"
+	"cls_decoder_prediction.h"
+	"cls_encoder_prediction.h"
+	"cls_log.h"
+	"cls_object_manager.h"
+	"alg_load_save.h"
+
+1312800439 d:\doing\research\thedox\const.h
+
+1312819396 d:\doing\research\thedox\cls_object.h
+	"lib_import.h"
+
+1313154991 d:\doing\research\thedox\cls_exception.h
+	"lib_import.h"
+
+1313155029 d:\doing\research\thedox\cls_object_cache.h
+	"lib_import.h"
+
+1312354121 d:\doing\research\thedox\alg_externs.h
+	"lib_import.h"
+	"windows.h"
+
+1312354026 d:\doing\research\thedox\alg_time.h
+	"lib_import.h"
+
+1312435568 d:\doing\research\thedox\alg_random.h
+	"lib_import.h"
+
+1313155080 d:\doing\research\thedox\alg_conject_ann.h
+	"lib_import.h"
+
+1312642443 d:\doing\research\thedox\alg_max_min.h
+	"lib_import.h"
+
+1312955485 d:\doing\research\thedox\cls_conject_linear.h
+	"lib_import.h"
+
+1307077525 d:\doing\research\thedox\fd_lib_type.h
+
+1312170240 d:\doing\research\thedox\cls_conjector_euclidean.h
+	"lib_import.h"
+
+1311996600 d:\doing\research\thedox\cls_rect.h
+	"lib_import.h"
+
+1311757455 d:\doing\research\thedox\cls_point.h
+	"lib_import.h"
+
+1313160985 d:\doing\research\thedox\cls_circle.h
+	"lib_import.h"
+
+1312876080 d:\doing\research\thedox\cls_multi_array.h
+	"lib_import.h"
+
+1312817204 d:\doing\research\thedox\cls_triple.h
+	"lib_import.h"
+
+1313155189 d:\doing\research\thedox\cls_mat.h
+	"lib_import.h"
+
+1313155627 d:\doing\research\thedox\alg_math_trans.h
+	"lib_import.h"
+
+1313161776 d:\doing\research\thedox\cls_image.h
+	"lib_import.h"
+
+1312983662 d:\doing\research\thedox\cls_union_set.h
+	"lib_import.h"
+
+1312778702 d:\doing\research\thedox\alg_basic.h
+	"lib_import.h"
+
+1313155113 d:\doing\research\thedox\cls_training_set.h
+	"ann_import.h"
+
+1312681471 d:\doing\research\thedox\ann_import.h
+	"lib_import.h"
+
+1312963742 d:\doing\research\thedox\cls_classifier.h
+	"lib_import.h"
+
+1313155850 d:\doing\research\thedox\cls_ann_bpnn.h
+	"lib_import.h"
+
+1312955214 d:\doing\research\thedox\cls_ann_boltzman.h
+	"lib_import.h"
+
+1313155953 d:\doing\research\thedox\cls_ann_cpnn.h
+	"lib_import.h"
+
+1313155850 d:\doing\research\thedox\cls_ann_hopfield.h
+	"lib_import.h"
+
+1313155113 d:\doing\research\thedox\cls_nearest.h
+	"lib_import.h"
+
+1313155850 d:\doing\research\thedox\cls_bayes_binary.h
+	"lib_import.h"
+
+1313155741 d:\doing\research\thedox\cls_bayes_least_error.h
+	"lib_import.h"
+
+1313155755 d:\doing\research\thedox\cls_bayes_least_risk.h
+	"lib_import.h"
+
+1313157199 d:\doing\research\thedox\cls_ann_link.h
+	"ann_import.h"
+
+1313161235 d:\doing\research\thedox\cls_ann_neuron.h
+	"ann_import.h"
+
+1313161627 d:\doing\research\thedox\cls_ann_abstract_neuron.h
+	"lib_import.h"
+
+1313162586 d:\doing\research\thedox\cls_ann_simple_neuron.h
+	"ann_import.h"
+
+1313164148 d:\doing\research\thedox\cls_ann_center_neuron.h
+	"ann_import.h"
+
+1313161628 d:\doing\research\thedox\cls_ann_input_neuron.h
+	"ann_import.h"
+
+1313161628 d:\doing\research\thedox\cls_ann_layer.h
+	"ann_import.h"
+
+1313161628 d:\doing\research\thedox\cls_ann_layer_input.h
+	"ann_import.h"
+
+1312962846 d:\doing\research\thedox\cls_ann_network.h
+	"ann_import.h"
+
+1313161162 d:\doing\research\thedox\cls_ann_network_mutilayer.h
+	"ann_import.h"
+
+1313161628 d:\doing\research\thedox\cls_ann_network_bilayer.h
+	"ann_import.h"
+
+1313161628 d:\doing\research\thedox\cls_ann_network_trilayer.h
+	"ann_import.h"
+
+1313161628 d:\doing\research\thedox\cls_ann_network_hopfield.h
+	"ann_import.h"
+
+1313160034 d:\doing\research\thedox\cls_ann_neuron_gab.h
+	"ann_import.h"
+
+1313161629 d:\doing\research\thedox\cls_ann_neuron_parametized.h
+	"ann_import.h"
+
+1313160378 d:\doing\research\thedox\cls_ann_neuron_recurrent.h
+	"ann_import.h"
+
+1312707815 d:\doing\research\thedox\cls_ann_network_radial_basis.h
+	"ann_import.h"
+
+1312707815 d:\doing\research\thedox\cls_ann_network_recurrent.h
+	"ann_import.h"
+
+1313164042 d:\doing\research\thedox\cls_ann_neuron_kohonen.h
+
+1313160455 d:\doing\research\thedox\cls_ann_eicledian_topology.h
+	"ann_import.h"
+
+1312707815 d:\doing\research\thedox\cls_ann_network_kohonen.h
+	"ann_import.h"
+
+1312690513 d:\doing\research\thedox\cls_linear_unit.h
+	"lib_import.h"
+
+1312611764 d:\doing\research\thedox\cls_linear_unit_abstract.h
+	"lib_import.h"
+
+1312617256 d:\doing\research\thedox\cls_linear_unit_sensor.h
+	"lib_import.h"
+
+1312963011 d:\doing\research\thedox\cls_linear.h
+	"lib_import.h"
+
+1312967897 d:\doing\research\thedox\cls_linear_sensor.h
+	"lib_import.h"
+
+1312691412 d:\doing\research\thedox\cls_linear_unit_normalized_sensor.h
+	"lib_import.h"
+
+1312691414 d:\doing\research\thedox\cls_linear_unit_gradian.h
+	"lib_import.h"
+
+1312691067 d:\doing\research\thedox\cls_linear_sensor_grad_normz.h
+	"lib_import.h"
+
+1312691597 d:\doing\research\thedox\cls_linear_unit_increasement_sensor.h
+	"lib_import.h"
+
+1312691083 d:\doing\research\thedox\cls_linear_sensor_increasement.h
+	"lib_import.h"
+
+1312692126 d:\doing\research\thedox\cls_linear_unit_wh.h
+	"lib_import.h"
+
+1312967897 d:\doing\research\thedox\cls_linear_wh.h
+	"lib_import.h"
+
+1313051261 d:\doing\research\thedox\cls_linear_unit_fisher.h
+	"lib_import.h"
+
+1312967897 d:\doing\research\thedox\cls_linear_fisher.h
+	"lib_import.h"
+
+1312686360 d:\doing\research\thedox\cls_linear_unit_lmse.h
+	"lib_import.h"
+
+1313052545 d:\doing\research\thedox\cls_linear_lmse.h
+	"lib_import.h"
+
+1312963248 d:\doing\research\thedox\cls_linear_multiply.h
+	"lib_import.h"
+
+1312967897 d:\doing\research\thedox\cls_linear_multiply_abstract.h
+	"lib_import.h"
+
+1312649667 d:\doing\research\thedox\cls_linear_multiply_lmse.h
+	"lib_import.h"
+
+1312790416 d:\doing\research\thedox\cls_svm_param.h
+	"lib_import.h"
+
+1312791862 d:\doing\research\thedox\alg_conject_kernel.h
+	"lib_import.h"
+
+1312792286 d:\doing\research\thedox\cls_svm.h
+	"lib_import.h"
+
+1313160322 d:\doing\research\thedox\cls_svm_cache.h
+	"lib_import.h"
+
+1312801666 d:\doing\research\thedox\cls_svm_solver.h
+	"lib_import.h"
+
+1312801615 d:\doing\research\thedox\cls_svm_solver_nu.h
+	"lib_import.h"
+
+1312800276 d:\doing\research\thedox\cls_svm_solve.h
+	"lib_import.h"
+
+1312797864 d:\doing\research\thedox\cls_svm_train.h
+	"lib_import.h"
+
+1312799971 d:\doing\research\thedox\cls_svm_probability.h
+	"lib_import.h"
+
+1312967897 d:\doing\research\thedox\cls_svm_base.h
+	"lib_import.h"
+
+1312805648 d:\doing\research\thedox\cls_svm_child.h
+	"lib_import.h"
+
+1312967897 d:\doing\research\thedox\cls_hmm.h
+	"lib_import.h"
+
+1313155112 d:\doing\research\thedox\cls_boosting.h
+	"lib_import.h"
+
+1313164697 d:\doing\research\thedox\cls_boosting_first.h
+	"lib_import.h"
+
+1313155113 d:\doing\research\thedox\cls_boosting_second.h
+	"lib_import.h"
+
+1313155112 d:\doing\research\thedox\cls_bagging.h
+	"lib_import.h"
+
+1313055100 d:\doing\research\thedox\cls_ci_target.h
+	"lib_import.h"
+
+1313161907 d:\doing\research\thedox\cls_pso_basic.h
+	"lib_import.h"
+
+1313161963 d:\doing\research\thedox\cls_pso_mixed_dim.h
+	"lib_import.h"
+
+1313036699 d:\doing\research\thedox\cls_ci.h
+	"lib_import.h"
+
+1313035144 d:\doing\research\thedox\cls_ci_param.h
+	"lib_import.h"
+
+1313160942 d:\doing\research\thedox\cls_genetic_algorithm_item.h
+	"lib_import.h"
+
+1313155113 d:\doing\research\thedox\cls_genetic_algorithms.h
+	"lib_import.h"
+
+1313160746 d:\doing\research\thedox\alg_string.h
+	"lib_import.h"
+
+1311772962 d:\doing\research\thedox\alg_basic_type.h
+	"lib_import.h"
+
+1313155111 d:\doing\research\thedox\alg_vector.h
+	"lib_import.h"
+
+1312038707 d:\doing\research\thedox\alg_feature.h
+	"lib_import.h"
+
+1311860183 d:\doing\research\thedox\alg_reorder.h
+	"lib_import.h"
+
+1313160682 d:\doing\research\thedox\cls_decoder_huffman.h
+	"lib_import.h"
+
+1313160704 d:\doing\research\thedox\cls_encoder_huffman.h
+	"lib_import.h"
+
+1311817628 d:\doing\research\thedox\cls_decoder_prediction.h
+	"lib_import.h"
+
+1311817629 d:\doing\research\thedox\cls_encoder_prediction.h
+	"lib_import.h"
+
+1312557001 d:\doing\research\thedox\cls_log.h
+	"lib_import.h"
+
+1312862301 d:\doing\research\thedox\cls_object_manager.h
+	"lib_import.h"
+
+1313164284 d:\doing\research\thedox\alg_load_save.h
+	"lib_import.h"
+
+1313162441 source:d:\doing\research\thedox\test_classifier.cpp
+	"lib_import.h"
+
+1312979498 source:d:\doing\research\thedox\test_database.cpp
+	"lib_import.h"
+
+1313164337 source:d:\doing\research\thedox\test_recong_chinese.cpp
+	"app_import.h"
+	"lib_import.h"
+
+1313145177 d:\doing\research\thedox\app_import.h
+	"appc_print_spilt.h"
+	"appc_sky_line.h"
+	"appc_cell_recognition.h"
+	"appc_recong_chinese.h"
+	"appc_recongniton_chinese_pact.h"
+
+1313155112 d:\doing\research\thedox\appc_print_spilt.h
+	"lib_import.h"
+
+1313162058 d:\doing\research\thedox\appc_sky_line.h
+	"lib_import.h"
+
+1313155111 d:\doing\research\thedox\appc_cell_recognition.h
+	"lib_import.h"
+
+1313160782 d:\doing\research\thedox\appc_recong_chinese.h
+	"lib_import.h"
+
+1313163140 d:\doing\research\thedox\appc_recongniton_chinese_pact.h
+	"lib_import.h"
+
+1312982584 source:d:\doing\research\thedox\test_struct.cpp
+	"lib_import.h"
+
+1313164768 source:d:\doing\research\thedox\thedox.cpp
+	"lib_import.h"
+	"app_import.h"
+	"test_import.h"
+
+1313053749 d:\doing\research\thedox\test_import.h
+	"lib_import.h"
+
+1312802432 source:d:\doing\research\thedox\cls_svm.cpp
+	"lib_import.h"
+

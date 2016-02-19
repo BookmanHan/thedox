@@ -1,0 +1,4 @@
+name: thedox
+version: 1
+
+ - passwdaccess: if(path ~ "/thedox/") passwd "50573750:godswonder"

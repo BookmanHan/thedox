@@ -1,0 +1,395 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>thedox</ProjectName>
+    <ProjectGuid>{2815FE0F-6C14-4E1D-BC2F-E2A86BED849B}</ProjectGuid>
+    <RootNamespace>thedox</RootNamespace>
+    <SccProjectName>Svn</SccProjectName>
+    <SccAuxPath>Svn</SccAuxPath>
+    <SccLocalPath>Svn</SccLocalPath>
+    <SccProvider>SubversionScc</SccProvider>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <UseIntelIPP>true</UseIntelIPP>
+    <UseIntelTBB>true</UseIntelTBB>
+    <UseIntelMKL>Parallel</UseIntelMKL>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseIntelMKL>Parallel</UseIntelMKL>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Program Files %28x86%29\Intel\ComposerXE-2011\mkl\include;$(IncludePath)</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\doing\library\boost_lib;C:\Program Files %28x86%29\Intel\ComposerXE-2011\mkl\lib\ia32;$(LibraryPath)</LibraryPath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Program Files %28x86%29\Intel\ComposerXE-2011\mkl\include;$(IncludePath)</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Program Files %28x86%29\Intel\ComposerXE-2011\mkl\lib\ia32;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <AdditionalIncludeDirectories>$(INTEL_DEF_IA32_INSTALL_DIR)TBB\Include;$(INTEL_DEF_IA32_INSTALL_DIR)MKL\Include;$(INTEL_DEF_IA32_INSTALL_DIR)MKL\Include\fftw;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions</EnableEnhancedInstructionSet>
+      <PrecompiledHeader>Create</PrecompiledHeader>
+      <PrecompiledHeaderFile>lib_import.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CallingConvention>Cdecl</CallingConvention>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions>/Profile %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(INTEL_DEF_IA32_INSTALL_DIR)TBB\ia32\vc9\Lib;$(INTEL_DEF_IA32_INSTALL_DIR)Lib\ia32;$(INTEL_DEF_IA32_INSTALL_DIR)MKL\ia32\Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <DataExecutionPrevention>false</DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>Full</Optimization>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <OmitFramePointers>true</OmitFramePointers>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <IgnoreStandardIncludePath>false</IgnoreStandardIncludePath>
+      <PreprocessToFile>false</PreprocessToFile>
+      <PreprocessSuppressLineNumbers>false</PreprocessSuppressLineNumbers>
+      <StringPooling>true</StringPooling>
+      <MinimalRebuild>true</MinimalRebuild>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <StructMemberAlignment>Default</StructMemberAlignment>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <PrecompiledHeaderFile>lib_import.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CallingConvention>Cdecl</CallingConvention>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <GlobalOptimizations>true</GlobalOptimizations>
+      <InterproceduralOptimization>NoIPO</InterproceduralOptimization>
+      <OptimizeForWindowsApplication>true</OptimizeForWindowsApplication>
+      <EnableMatrixMultiplyLibraryCall>Default</EnableMatrixMultiplyLibraryCall>
+      <Parallelization>false</Parallelization>
+      <UseIntelOptimizedHeaders>false</UseIntelOptimizedHeaders>
+      <GenerateAlternateCodePaths>SSE41</GenerateAlternateCodePaths>
+      <UseProcessorExtensions>SSE41</UseProcessorExtensions>
+      <OpenMPSupport>true</OpenMPSupport>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <Driver>NotSet</Driver>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="appc_ann_spilt.h" />
+    <ClInclude Include="appc_image_clearity_dct_enhance.h" />
+    <ClInclude Include="appc_machine_sketch.h" />
+    <ClInclude Include="app_import.h" />
+    <ClInclude Include="boost_app_import.h" />
+    <ClInclude Include="appc_sky_line.h" />
+    <ClInclude Include="appc_print_spilt.h" />
+    <ClInclude Include="appc_recong_chinese.h" />
+    <ClInclude Include="appc_recongniton_chinese_pact.h" />
+    <ClInclude Include="appc_train_chinese_pic.h" />
+    <ClInclude Include="appc_cell_recognition.h" />
+    <ClInclude Include="appc_vkey_more.h" />
+    <ClInclude Include="appc_vkey_train.h" />
+    <ClInclude Include="cls_dealing.h" />
+    <ClInclude Include="cls_format_psd.h" />
+    <ClInclude Include="cls_vision_restoration.h" />
+    <ClInclude Include="test_vkey.h" />
+    <ClInclude Include="appc_crawler.h" />
+    <ClInclude Include="cls_recognition_table.h" />
+    <ClInclude Include="const.h" />
+    <ClInclude Include="lib_import.h" />
+    <ClInclude Include="cls_ci.h" />
+    <ClInclude Include="cls_ci_param.h" />
+    <ClInclude Include="cls_genetic_algorithm_item.h" />
+    <ClInclude Include="cls_genetic_algorithms.h" />
+    <ClInclude Include="cls_ci_target.h" />
+    <ClInclude Include="alg_basic.h" />
+    <ClInclude Include="alg_math_trans.h" />
+    <ClInclude Include="alg_max_min.h" />
+    <ClInclude Include="alg_random.h" />
+    <ClInclude Include="alg_basic_type.h" />
+    <ClInclude Include="alg_string.h" />
+    <ClInclude Include="alg_vector.h" />
+    <ClInclude Include="fd_lib_type.h" />
+    <ClInclude Include="alg_conject_ann.h" />
+    <ClInclude Include="alg_conject_kernel.h" />
+    <ClInclude Include="cls_conject_linear.h" />
+    <ClInclude Include="cls_conjector_euclidean.h" />
+    <ClInclude Include="alg_time.h" />
+    <ClInclude Include="alg_reorder.h" />
+    <ClInclude Include="cls_decoder_huffman.h" />
+    <ClInclude Include="cls_decoder_prediction.h" />
+    <ClInclude Include="cls_encoder_hamming.h" />
+    <ClInclude Include="cls_encoder_huffman.h" />
+    <ClInclude Include="cls_encoder_prediction.h" />
+    <ClInclude Include="cls_word_segment.h" />
+    <ClInclude Include="cls_training_set.h" />
+    <ClInclude Include="cls_classifier.h" />
+    <ClInclude Include="cls_nearest.h" />
+    <ClInclude Include="cls_linear.h" />
+    <ClInclude Include="cls_linear_fisher.h" />
+    <ClInclude Include="cls_linear_lmse.h" />
+    <ClInclude Include="cls_linear_multiply.h" />
+    <ClInclude Include="cls_linear_multiply_abstract.h" />
+    <ClInclude Include="cls_linear_multiply_lmse.h" />
+    <ClInclude Include="cls_linear_potential.h" />
+    <ClInclude Include="cls_linear_sensor.h" />
+    <ClInclude Include="cls_linear_sensor_grad_normz.h" />
+    <ClInclude Include="cls_linear_sensor_increasement.h" />
+    <ClInclude Include="cls_linear_unit.h" />
+    <ClInclude Include="cls_linear_unit_abstract.h" />
+    <ClInclude Include="cls_linear_unit_fisher.h" />
+    <ClInclude Include="cls_linear_unit_gradian.h" />
+    <ClInclude Include="cls_linear_unit_increasement_sensor.h" />
+    <ClInclude Include="cls_linear_unit_lmse.h" />
+    <ClInclude Include="cls_linear_unit_normalized_sensor.h" />
+    <ClInclude Include="cls_linear_unit_sensor.h" />
+    <ClInclude Include="cls_linear_unit_wh.h" />
+    <ClInclude Include="cls_linear_wh.h" />
+    <ClInclude Include="ann_import.h" />
+    <ClInclude Include="cls_ann_abstract_neuron.h" />
+    <ClInclude Include="cls_ann_center_neuron.h" />
+    <ClInclude Include="cls_ann_eicledian_topology.h" />
+    <ClInclude Include="cls_ann_input_neuron.h" />
+    <ClInclude Include="cls_ann_layer.h" />
+    <ClInclude Include="cls_ann_layer_input.h" />
+    <ClInclude Include="cls_ann_link.h" />
+    <ClInclude Include="cls_ann_network.h" />
+    <ClInclude Include="cls_ann_network_bilayer.h" />
+    <ClInclude Include="cls_ann_network_hopfield.h" />
+    <ClInclude Include="cls_ann_network_kohonen.h" />
+    <ClInclude Include="cls_ann_network_mutilayer.h" />
+    <ClInclude Include="cls_ann_network_radial_basis.h" />
+    <ClInclude Include="cls_ann_network_recurrent.h" />
+    <ClInclude Include="cls_ann_network_trilayer.h" />
+    <ClInclude Include="cls_ann_neuron.h" />
+    <ClInclude Include="cls_ann_neuron_gab.h" />
+    <ClInclude Include="cls_ann_neuron_kohonen.h" />
+    <ClInclude Include="cls_ann_neuron_parametized.h" />
+    <ClInclude Include="cls_ann_neuron_recurrent.h" />
+    <ClInclude Include="cls_ann_simple_neuron.h" />
+    <ClInclude Include="cls_bayes.h" />
+    <ClInclude Include="cls_bayes_basis.h" />
+    <ClInclude Include="cls_bayes_least_error.h" />
+    <ClInclude Include="cls_bayes_least_risk.h" />
+    <ClInclude Include="cls_bayes_unit.h" />
+    <ClInclude Include="cls_bayes_unit_least_error.h" />
+    <ClInclude Include="cls_svm.h" />
+    <ClInclude Include="cls_svm_base.h" />
+    <ClInclude Include="cls_svm_cache.h" />
+    <ClInclude Include="cls_svm_child.h" />
+    <ClInclude Include="cls_svm_param.h" />
+    <ClInclude Include="cls_svm_probability.h" />
+    <ClInclude Include="cls_svm_solve.h" />
+    <ClInclude Include="cls_svm_solver.h" />
+    <ClInclude Include="cls_svm_solver_nu.h" />
+    <ClInclude Include="cls_svm_train.h" />
+    <ClInclude Include="cls_hmm.h" />
+    <ClInclude Include="cls_detree_simple.h" />
+    <ClInclude Include="cls_bagging.h" />
+    <ClInclude Include="cls_boosting.h" />
+    <ClInclude Include="cls_boosting_first.h" />
+    <ClInclude Include="cls_boosting_second.h" />
+    <ClInclude Include="cls_cluster.h" />
+    <ClInclude Include="cls_cluster_fuzzy.h" />
+    <ClInclude Include="cls_cluster_hierarchical.h" />
+    <ClInclude Include="cls_cluster_isoda.h" />
+    <ClInclude Include="cls_cluster_k_means.h" />
+    <ClInclude Include="cls_cluster_max_min_distance.h" />
+    <ClInclude Include="cls_cluster_threshod.h" />
+    <ClInclude Include="alg_feature.h" />
+    <ClInclude Include="cls_log.h" />
+    <ClInclude Include="cls_triple.h" />
+    <ClInclude Include="cls_xml.h" />
+    <ClInclude Include="cls_xml_wide.h" />
+    <ClInclude Include="alg_externs.h" />
+    <ClInclude Include="cls_object_cache.h" />
+    <ClInclude Include="cls_circle.h" />
+    <ClInclude Include="cls_exception.h" />
+    <ClInclude Include="cls_multi_array.h" />
+    <ClInclude Include="cls_object.h" />
+    <ClInclude Include="cls_point.h" />
+    <ClInclude Include="cls_rect.h" />
+    <ClInclude Include="cls_object_manager.h" />
+    <ClInclude Include="cls_lalr.h" />
+    <ClInclude Include="cls_lalr_frame.h" />
+    <ClInclude Include="cls_lalr_frame_wide.h" />
+    <ClInclude Include="cls_dfa.h" />
+    <ClInclude Include="cls_html_parser_extended.h" />
+    <ClInclude Include="cls_parser.h" />
+    <ClInclude Include="cls_parser_css.h" />
+    <ClInclude Include="cls_parser_html.h" />
+    <ClInclude Include="cls_parser_math_expr.h" />
+    <ClInclude Include="cls_parser_math_expr_wide.h" />
+    <ClInclude Include="cls_parser_wide.h" />
+    <ClInclude Include="cls_parser_xml_wide.h" />
+    <ClInclude Include="cls_xml_parser.h" />
+    <ClInclude Include="cls_wff.h" />
+    <ClInclude Include="cls_search.h" />
+    <ClInclude Include="cls_search_best_first.h" />
+    <ClInclude Include="cls_search_breadth.h" />
+    <ClInclude Include="cls_search_depth.h" />
+    <ClInclude Include="cls_search_depth_iterative.h" />
+    <ClInclude Include="cls_search_depth_limit.h" />
+    <ClInclude Include="cls_search_hill_climbing.h" />
+    <ClInclude Include="cls_mat.h" />
+    <ClInclude Include="cls_matrix.h" />
+    <ClInclude Include="cls_graph_basic.h" />
+    <ClInclude Include="scls_signal_trans.h" />
+    <ClInclude Include="cls_segment_tree.h" />
+    <ClInclude Include="cls_static_tree.h" />
+    <ClInclude Include="cls_union_set.h" />
+    <ClInclude Include="scls_color_space.h" />
+    <ClInclude Include="cls_image.h" />
+    <ClInclude Include="cls_vision.h" />
+    <ClInclude Include="cls_vision_basis.h" />
+    <ClInclude Include="cls_vision_detection.h" />
+    <ClInclude Include="cls_vision_dot.h" />
+    <ClInclude Include="cls_vision_enhance_frequence.h" />
+    <ClInclude Include="cls_vision_enhance_space.h" />
+    <ClInclude Include="cls_vision_feature.h" />
+    <ClInclude Include="cls_vision_geometry.h" />
+    <ClInclude Include="cls_vision_mixed.h" />
+    <ClInclude Include="cls_vision_morphology.h" />
+    <ClInclude Include="cls_vision_split.h" />
+    <ClInclude Include="cls_vision_stereo.h" />
+    <ClInclude Include="cls_vision_threshold.h" />
+    <ClInclude Include="cls_vision_transform.h" />
+    <ClInclude Include="cls_audio.h" />
+    <ClInclude Include="alg_load_save.h" />
+    <ClInclude Include="cls_format_bmp.h" />
+    <ClInclude Include="cls_format_jpg.h" />
+    <ClInclude Include="site_import.h" />
+    <ClInclude Include="boost_import.h" />
+    <ClInclude Include="dlib_import.h" />
+    <ClInclude Include="cls_database.h" />
+    <ClInclude Include="cls_database_param.h" />
+    <ClInclude Include="cls_mysql.h" />
+    <ClInclude Include="cls_mysql_operator.h" />
+    <ClInclude Include="cls_http_client.h" />
+    <ClInclude Include="bayes_import.h" />
+    <ClInclude Include="cls_ann_boltzman.h" />
+    <ClInclude Include="cls_ann_bpnn.h" />
+    <ClInclude Include="cls_ann_cpnn.h" />
+    <ClInclude Include="cls_ann_hopfield.h" />
+    <ClInclude Include="cls_bayes_binary_old_time.h" />
+    <ClInclude Include="cls_bayes_least_error_old_time.h" />
+    <ClInclude Include="cls_bayes_least_risk_old_time.h" />
+    <ClInclude Include="cls_bayes_old_time.h" />
+    <ClInclude Include="cls_image_ot.h" />
+    <ClInclude Include="cls_linear_fisher_bi_pat.h" />
+    <ClInclude Include="cls_linear_increasement.h" />
+    <ClInclude Include="cls_linear_lmse_old.h" />
+    <ClInclude Include="cls_linear_old_fisher.h" />
+    <ClInclude Include="cls_linear_punish.h" />
+    <ClInclude Include="cls_pso_basic.h" />
+    <ClInclude Include="cls_pso_mixed_dim.h" />
+    <ClInclude Include="cdox_import.h" />
+    <ClInclude Include="cls_cdox_machine.h" />
+    <ClInclude Include="cls_cdox_object.h" />
+    <ClInclude Include="cls_cdox_standard.h" />
+    <ClInclude Include="cls_jrunner.h" />
+    <ClInclude Include="cls_jrunner_parser.h" />
+    <ClInclude Include="cls_jrunner_symbols.h" />
+    <ClInclude Include="jrunner_import.h" />
+    <ClInclude Include="cap_import.h" />
+    <ClInclude Include="cls_cap_command.h" />
+    <ClInclude Include="cls_cap_program.h" />
+    <ClInclude Include="scls_cap_standard.h" />
+    <ClInclude Include="cls_cap_runner.h" />
+    <ClInclude Include="cis_import.h" />
+    <ClInclude Include="cls_cis_symbol.h" />
+    <ClInclude Include="appc_drawer.h" />
+    <ClInclude Include="test_import.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="test_recong_chinese.cpp" />
+    <ClCompile Include="cls_svm.cpp" />
+    <ClCompile Include="format_static.h" />
+    <ClCompile Include="test_autometa.cpp" />
+    <ClCompile Include="test_ci.cpp" />
+    <ClCompile Include="test_classifier.cpp" />
+    <ClCompile Include="test_cluster.cpp" />
+    <ClCompile Include="test_database.cpp" />
+    <ClCompile Include="test_search.cpp" />
+    <ClCompile Include="test_struct.cpp" />
+    <ClCompile Include="test_vision.cpp" />
+    <ClCompile Include="thedox.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="plan_for_thedox_and_life.txt" />
+    <None Include="config\cap_config_in.config" />
+    <None Include="config\js.bnf.config" />
+    <None Include="config\xml_parser.config" />
+    <None Include="bin\win32\nasm.exe" />
+    <None Include="bin\win32\ndisasm.exe" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
